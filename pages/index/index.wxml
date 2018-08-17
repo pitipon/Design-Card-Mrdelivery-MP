@@ -1,0 +1,45 @@
+<view style="margin: 30rpx; border: 1px solid grey; padding: 10rpx; background-color: white;">
+
+  <view style="display: flex; flex-direction: column;">
+    <!-- COL-1 -->
+    <view id="COL-1"> 
+        <view style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+
+            <!-- AVARTAR -->
+            <view id="ITEM-AVARTAR" style="width:100rpx; height:100rpx; border-radius:50%; background-color:rgb(94, 94, 94);"></view>
+
+            <!-- LOCATION-TIME -->
+            <view id="ITEM-LOCATION-TIME" style="flex-grow: 1; padding: 10rpx;">
+              <view style="display:flex; flex-direction:column; padding-left: 20rpx;">
+                <view style="font-size: 30rpx;">Address</view>
+                <view style="font-size: 30rpx;">Time 14:00-18.00</view>
+              </view>
+              
+            </view>
+
+            <!-- BUTTON -->
+            <view id="ITEM-BUTTON" style="width:150rpx; height:100rpx; background-color: rgb(255, 60, 0); color: white; border-radius: 4rpx; margin-right: 10rpx;">
+                <view style="display:flex; align-items:center; justify-content:center; height: 100rpx; ">
+                    <view style="font-size: 36rpx;">Submit</view>
+                </view>
+            </view>
+      
+          </view>
+    </view>
+
+    <!-- COL-2 -->
+    <view id="COL-2">
+      <view style="display:flex; justify-content: space-around; padding: 20rpx 5rpx;">
+        <view style="flex-grow: 1;">Package: S M L</view>
+        <view style="flex-grow: 1;">Price: 3 RMB</view>
+
+      </view>
+    </view>
+
+    <view>COL 3</view>
+    <view>COL 4</view>
+    <view>COL 5</view>
+
+  </view>
+
+</view>
